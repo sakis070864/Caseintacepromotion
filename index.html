@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalIntake AI - The Premier AI-Powered Legal Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+        }
+        .font-display {
+            font-family: 'Teko', sans-serif;
+            letter-spacing: 0.05em;
+        }
+        .rocky-bg {
+            background-color: #1D2333;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23283149' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h9V0h1v5h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5h-9v5h-1v-5H6v-1h9v-9H6v-1h9v-9H6v-1h9v-9H6v-1h9v-9H6v-1h9v-9H6v-1h9v-9H6v-1h9v-9H6v-1h9v-9H6V5zm10 1h9v9h-9V6zm10 0h9v9h-9V6zm10 0h9v9h-9V6zm10 0h9v9h-9V6zm10 0h9v9h-9V6zm10 0h9v9h-9V6zm10 0h9v9h-9V6zm10 0h9v9h-9V6zm-9 10h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-9 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm-9 10h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-9 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm-9 10h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-9 10h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm10 0h9v9h-9v-9zm-9 10h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9zm-10 0h9v9h-9v-9z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.7; }
+            50% { transform: scale(1.05); opacity: 1; }
+        }
+        .animate-pulse-icon {
+            animation: pulse 2.5s infinite ease-in-out;
+        }
+        @keyframes shield-sheen {
+            0% { transform: translateX(-120%) skewX(-30deg); }
+            100% { transform: translateX(120%) skewX(-30deg); }
+        }
+        .sheen-overlay::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+            animation: shield-sheen 3s infinite linear;
+        }
+        @keyframes rotate-gears {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .animate-gear-slow {
+            animation: rotate-gears 10s linear infinite;
+        }
+        .animate-gear-fast {
+            animation: rotate-gears 5s linear infinite reverse;
+        }
+    </style>
+</head>
+<body class="text-slate-300 rocky-bg">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-[#1D2333]/80 backdrop-blur-sm border-b border-slate-700/50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-3xl font-display font-bold text-white tracking-wider">
+                LEGALINTAKE <span class="text-amber-400">AI</span>
+            </div>
+            <div>
+                <a href="#" class="bg-amber-500 text-slate-900 font-bold py-2 px-5 rounded-lg hover:bg-amber-400 transition-colors duration-300 shadow-md shadow-amber-500/10">
+                    Login
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-24 md:py-40 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#1D2333]"></div>
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h1 class="text-5xl md:text-7xl font-display font-bold text-white leading-tight mb-4">
+                    THE AI ASSISTANT FOR THE <span class="text-amber-400">MODERN LAW FIRM</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10">
+                    Stop wasting billable hours on manual intake. Our AI conducts client interviews, provides instant case analysis, and delivers actionable insights, so you can focus on winning cases.
+                </p>
+                <a href="#" class="bg-amber-500 text-slate-900 font-bold py-4 px-10 rounded-lg text-lg hover:bg-amber-400 transition-colors duration-300 inline-block shadow-xl shadow-amber-500/20">
+                    Request a Demo
+                </a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-display font-bold text-white">INTELLIGENCE. EFFICIENCY. SECURITY.</h2>
+                    <p class="text-slate-400 mt-3 max-w-2xl mx-auto">Our platform is built on three pillars to empower your practice.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <!-- Feature 1: AI Analysis -->
+                    <div class="bg-slate-800/40 p-8 rounded-xl border border-slate-700/50 shadow-2xl text-center">
+                        <div class="relative w-20 h-20 mx-auto mb-5">
+                            <svg class="w-full h-full text-slate-700" fill="currentColor" viewBox="0 0 64 64"><path d="M42.5,22.55 C41.97,22.55 41.55,22.97 41.55,23.5 L41.55,23.5 C41.55,24.03 41.97,24.45 42.5,24.45 L42.5,24.45 C47.19,24.45 51,28.26 51,32.95 L51,32.95 C51,37.64 47.19,41.45 42.5,41.45 L42.5,41.45 C41.97,41.45 41.55,41.87 41.55,42.4 L41.55,42.4 C41.55,42.93 41.97,43.35 42.5,43.35 L42.5,43.35 C48.28,43.35 52.9,38.73 52.9,32.95 L52.9,32.95 C52.9,27.17 48.28,22.55 42.5,22.55 Z M21.5,22.55 C15.72,22.55 11.1,27.17 11.1,32.95 L11.1,32.95 C11.1,38.73 15.72,43.35 21.5,43.35 L21.5,43.35 C22.03,43.35 22.45,42.93 22.45,42.4 L22.45,42.4 C22.45,41.87 22.03,41.45 21.5,41.45 L21.5,41.45 C16.81,41.45 13,37.64 13,32.95 L13,32.95 C13,28.26 16.81,24.45 21.5,24.45 L21.5,24.45 C22.03,24.45 22.45,24.03 22.45,23.5 L22.45,23.5 C22.45,22.97 22.03,22.55 21.5,22.55 Z M32,11.1 C28.26,11.1 25.2,14.16 25.2,17.9 L25.2,21.5 C25.2,22.03 25.62,22.45 26.15,22.45 L26.15,22.45 C26.68,22.45 27.1,22.03 27.1,21.5 L27.1,17.9 C27.1,15.21 29.31,13 32,13 L32,13 C34.69,13 36.9,15.21 36.9,17.9 L36.9,21.5 C36.9,22.03 37.32,22.45 37.85,22.45 L37.85,22.45 C38.38,22.45 38.8,22.03 38.8,21.5 L38.8,17.9 C38.8,14.16 35.74,11.1 32,11.1 Z M32,46.9 C35.74,46.9 38.8,43.84 38.8,40.1 L38.8,36.5 C38.8,35.97 38.38,35.55 37.85,35.55 L37.85,35.55 C37.32,35.55 36.9,35.97 36.9,36.5 L36.9,40.1 C36.9,42.79 34.69,45 32,45 L32,45 C29.31,45 27.1,42.79 27.1,40.1 L27.1,36.5 C27.1,35.97 26.68,35.55 26.15,35.55 L26.15,35.55 C25.62,35.55 25.2,35.97 25.2,36.5 L25.2,40.1 C25.2,43.84 28.26,46.9 32,46.9 Z M46.9,32 C46.9,35.74 43.84,38.8 40.1,38.8 L36.5,38.8 C35.97,38.8 35.55,38.38 35.55,37.85 L35.55,37.85 C35.55,37.32 35.97,36.9 36.5,36.9 L40.1,36.9 C42.79,36.9 45,34.69 45,32 L45,32 C45,29.31 42.79,27.1 40.1,27.1 L36.5,27.1 C35.97,27.1 35.55,26.68 35.55,26.15 L35.55,26.15 C35.55,25.62 35.97,25.2 36.5,25.2 L40.1,25.2 C43.84,25.2 46.9,28.26 46.9,32 Z M17.1,32 C17.1,28.26 20.16,25.2 23.9,25.2 L27.5,25.2 C28.03,25.2 28.45,25.62 28.45,26.15 L28.45,26.15 C28.45,26.68 28.03,27.1 27.5,27.1 L23.9,27.1 C21.21,27.1 19,29.31 19,32 L19,32 C19,34.69 21.21,36.9 23.9,36.9 L27.5,36.9 C28.03,36.9 28.45,37.32 28.45,37.85 L28.45,37.85 C28.45,38.38 28.03,38.8 27.5,38.8 L23.9,38.8 C20.16,38.8 17.1,35.74 17.1,32 Z"></path></svg>
+                            <svg class="w-full h-full absolute top-0 left-0 text-amber-400 animate-pulse-icon" fill="currentColor" viewBox="0 0 64 64"><path d="M32,25.2 C28.26,25.2 25.2,28.26 25.2,32 L25.2,32 C25.2,35.74 28.26,38.8 32,38.8 L32,38.8 C35.74,38.8 38.8,35.74 38.8,32 L38.8,32 C38.8,28.26 35.74,25.2 32,25.2 Z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-display font-bold text-white mb-2">AI-DRIVEN INSIGHTS</h3>
+                        <p class="text-slate-400">Go beyond simple data collection. Receive instant, actionable analysis of case strength, potential legal issues, and required documentation.</p>
+                    </div>
+                    <!-- Feature 2: Security -->
+                    <div class="bg-slate-800/40 p-8 rounded-xl border border-slate-700/50 shadow-2xl text-center">
+                        <div class="relative w-20 h-20 mx-auto mb-5 overflow-hidden">
+                            <svg class="w-full h-full text-slate-700" fill="currentColor" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            <div class="absolute top-0 left-0 w-full h-full sheen-overlay"></div>
+                        </div>
+                        <h3 class="text-2xl font-display font-bold text-white mb-2">BANK-GRADE SECURITY</h3>
+                        <p class="text-slate-400">Protect client confidentiality with single-use intake links and a secure platform designed for the legal industry's highest standards.</p>
+                    </div>
+                    <!-- Feature 3: Automation -->
+                    <div class="bg-slate-800/40 p-8 rounded-xl border border-slate-700/50 shadow-2xl text-center">
+                        <div class="relative w-20 h-20 mx-auto mb-5">
+                            <svg class="w-full h-full text-slate-700" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 64 64">
+                                <circle cx="32" cy="32" r="26" />
+                                <circle cx="32" cy="32" r="6" fill="currentColor" />
+                                <path d="M32 14 V6 M32 58 V50 M50 32 H58 M14 32 H6 M46.5 17.5 L52 12 M17.5 46.5 L12 52 M17.5 17.5 L12 12 M46.5 46.5 L52 52" />
+                            </svg>
+                            <svg class="w-12 h-12 absolute top-1/2 left-1/2 -mt-6 -ml-6 text-amber-400 animate-gear-slow" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 32 32">
+                                <path d="M31.4,14.6l-3.2-1.1c-0.3-0.9-0.7-1.7-1.2-2.5l1.8-2.9c0.3-0.5,0.1-1.1-0.4-1.4l-2.3-2.3c-0.5-0.3-1.1-0.1-1.4,0.4 l-2.9,1.8C20.9,6.7,20.1,6.3,19.2,6l-1.1-3.2C18,2.3,17.5,2,17,2h-4c-0.5,0-1,0.3-1.1,0.8l-1.1,3.2c-0.9,0.3-1.7,0.7-2.5,1.2 l-2.9-1.8c-0.5-0.3-1.1-0.1-1.4,0.4l-2.3,2.3c-0.3,0.5-0.1,1.1,0.4,1.4l1.8,2.9c-0.5,0.8-0.9,1.6-1.2,2.5l-3.2,1.1 C2.3,15,2,15.5,2,16v4c0,0.5,0.3,1,0.8,1.1l3.2,1.1c0.3,0.9,0.7,1.7,1.2,2.5l-1.8,2.9c-0.3,0.5-0.1,1.1,0.4,1.4l2.3,2.3 c0.5,0.3,1.1,0.1,1.4-0.4l2.9-1.8c0.8,0.5,1.6,0.9,2.5,1.2l1.1,3.2C15,29.7,15.5,30,16,30h4c0.5,0,1-0.3,1.1-0.8l1.1-3.2 c0.9-0.3,1.7-0.7,2.5-1.2l2.9,1.8c0.5,0.3,1.1,0.1,1.4-0.4l2.3-2.3c0.3-0.5,0.1-1.1-0.4-1.4l-1.8-2.9c0.5-0.8,0.9-1.6,1.2-2.5 l3.2-1.1C29.7,17,30,16.5,30,16v-4C30,15.5,29.7,15,29.4,14.6z M16,22c-3.3,0-6-2.7-6-6s2.7-6,6-6s6,2.7,6,6S19.3,22,16,22z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-display font-bold text-white mb-2">WORKFLOW AUTOMATION</h3>
+                        <p class="text-slate-400">Reduce manual data entry and repetitive questioning. Our platform automates the entire intake process, saving valuable time for you and your staff.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-display font-bold text-white">A SIMPLE, POWERFUL WORKFLOW</h2>
+                    <p class="text-slate-400 mt-3 max-w-2xl mx-auto">Modernize your client intake in three easy steps.</p>
+                </div>
+                <div class="relative">
+                    <!-- Dashed line for desktop -->
+                    <div class="hidden md:block absolute top-1/2 left-0 w-full h-px border-t-2 border-dashed border-slate-700 -translate-y-1/2"></div>
+                    <div class="grid md:grid-cols-3 gap-8 text-center relative">
+                        <div class="p-4">
+                            <div class="relative inline-block">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center text-2xl font-bold text-amber-400 font-display">01</div>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mt-4 mb-2">Create Secure Link</h3>
+                            <p class="text-slate-400">Generate a unique, single-use intake link and passcode for your client directly from your dashboard.</p>
+                        </div>
+                        <div class="p-4">
+                            <div class="relative inline-block">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center text-2xl font-bold text-amber-400 font-display">02</div>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mt-4 mb-2">AI Conducts Interview</h3>
+                            <p class="text-slate-400">Your client completes their intake through a secure, conversational AI assistant at their own convenience.</p>
+                        </div>
+                        <div class="p-4">
+                            <div class="relative inline-block">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center text-2xl font-bold text-amber-400 font-display">03</div>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mt-4 mb-2">Receive Instant Analysis</h3>
+                            <p class="text-slate-400">The completed report, along with AI-powered insights, appears on your dashboard, ready for review.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="py-20 bg-slate-900/50">
+            <div class="container mx-auto px-6">
+                <div class="max-w-3xl mx-auto text-center">
+                    <svg class="mx-auto mb-4 text-amber-500/20" width="44" height="34" viewBox="0 0 44 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.804 34C17.336 34 15.96 33.444 14.676 32.332L0.84 20.248C-0.28 19.264 -0.28 17.656 0.84 16.672L3.528 14.272C4.648 13.288 6.256 13.288 7.376 14.272L12.236 18.592C12.796 19.084 13.636 19.084 14.196 18.592L18.804 14.272C21.62 11.728 25.356 10.036 29.484 9.76L30.952 0H44L40.084 20.248C37.828 30.092 29.196 34 18.804 34Z" fill="currentColor"/></svg>
+                    <p class="text-2xl text-white leading-relaxed">
+                        "LegalIntake AI has been a game-changer for our firm. We're saving at least 5 hours a week on initial consultations, and the AI analysis helps us identify key issues faster than ever before. It's an indispensable tool."
+                    </p>
+                    <p class="mt-6 font-semibold text-white">Sarah Johnson, Esq.</p>
+                    <p class="text-sm text-slate-400">Johnson & Associates Law Firm</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-5xl font-display font-bold text-white">Ready to Modernize Your Intake Process?</h2>
+                <p class="text-lg text-slate-400 mt-3 mb-10 max-w-xl mx-auto">Join the growing number of firms embracing the future of legal technology.</p>
+                <a href="#" class="bg-amber-500 text-slate-900 font-bold py-4 px-10 rounded-lg text-lg hover:bg-amber-400 transition-colors duration-300 inline-block shadow-xl shadow-amber-500/20">
+                    Request a Demo
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#1D2333] border-t border-slate-800">
+        <div class="container mx-auto px-6 py-8 text-center text-slate-500">
+            <p>&copy; 2025 LegalIntake AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
